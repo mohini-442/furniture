@@ -18,7 +18,6 @@ const Testimonial = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    // centerPadding: "35px",
                     slidesToShow: 5,
                 },
             },
@@ -40,14 +39,15 @@ const Testimonial = () => {
     const [nav2, setNav2] = useState();
     return (
         <div>
-            <div className="max-w-[1341px] px-3 mx-auto pt-[55px] pb-[109px]">
-                <span className="flex items-center gap-2">
+            <div className="max-w-[1341px] px-3 mx-auto pt-[55px] pb-[109px]" data-aos="fade-up"
+                data-aos-duration="3000">
+                <span className="flex items-center gap-2 justify-center lg:justify-start">
                     <hr className="max-w-[96px] w-full h-[1px] bg-[#000000] border-t-[unset]" />
                     <p className="text-[#BD7D41] font-poppins text-lg sm:text-xl text-center font-normal leading-normal">
                         Customer Says
                     </p>
                 </span>
-                <h2 className="text-[#243040] max-w-[436px]  font-poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6">
+                <h2 className="text-[#243040] max-w-[436px]  font-poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6 text-center lg:text-start mx-auto lg:mx-0">
                     Testimonial
                 </h2>
                 <div className="pt-[50px]">

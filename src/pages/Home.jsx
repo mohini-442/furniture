@@ -9,6 +9,11 @@ import Latesdeal from '../components/Latestdeal'
 import Myfooter from '../components/Myfooter'
 import Loader from '../components/Loader'
 import Festivaloffer from '../components/Festivaloffer'
+import Backtotop from '../components/Backtotop'
+
+
+
+import bgheader from '../assets/images/bgheader.png'
 
 const Home = () => {
     return (
@@ -18,13 +23,14 @@ const Home = () => {
                 <Header />
             </div>
             <Welcomeourstory />
-            {/* <Shoppingstore /> */}
+            <Shoppingstore />
             <Ourproducts />
             <Woodensofa />
             <Latesdeal />
             <Festivaloffer />
             <Testimonial />
             <Myfooter />
+            <Backtotop />
 
         </div>
     )

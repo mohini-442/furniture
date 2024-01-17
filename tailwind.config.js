@@ -9,7 +9,10 @@ module.exports = {
       },
       backgroundSize: {
         'size': '100% 100%'
-      }
+      },
+      backgroundImage: {
+        'gradient1': 'linear-gradient(180deg, #243040 0%, #8B929B 100%)'
+      },
     },
   },
   plugins: [],
