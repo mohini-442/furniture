@@ -17,7 +17,7 @@ import bgheader from '../assets/images/bgheader.png'
 
 const Home = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <Loader />
             <div className='bg-[url(./assets/images/bgheader.png)] bg-cover md:bg-center bg-right bg-no-repeat md:min-h-[100vh] min-h-[70vh]'>
                 <Header />

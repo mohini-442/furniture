@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/images/logo.png'
+import { Link } from 'react-router-dom';
 const Header = () => {
     const [show, setshow] = useState(true);
     function nav() {
@@ -26,16 +27,16 @@ const Header = () => {
                             }`}
                     >
                         <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
-                            HOME
+                            <Link to={'/'}> HOME </Link>
                         </li>
                         <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
-                            ABOUT US
+                            <Link to={'/about'}> ABOUT US</Link>
                         </li>
                         <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
-                            SHOP
+                            <Link to={'/shop'}> SHOP </Link>
                         </li>
                         <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
-                            CONTACT US
+                            <Link to={'/contact'}>  CONTACT US </Link>
                         </li>
 
                     </ul>
