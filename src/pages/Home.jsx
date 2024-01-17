@@ -19,7 +19,7 @@ const Home = () => {
     return (
         <div>
             <Loader />
-            <div className='bg-[url(./assets/images/bgheader.png)] bg-cover md:bg-center bg-right bg-no-repeat md:min-h-[90vh] min-h-[70vh]'>
+            <div className='bg-[url(./assets/images/bgheader.png)] bg-cover md:bg-center bg-right bg-no-repeat md:min-h-[100vh] min-h-[70vh]'>
                 <Header />
             </div>
             <Welcomeourstory />

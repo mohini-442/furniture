@@ -4,5 +4,5 @@
 
 
 .mobileView {
-    @apply max-lg:w-full max-lg:min-h-full max-lg:flex-col max-lg:bg-[#010223] max-lg:items-center max-lg:justify-center z-20 max-lg:fixed max-lg:top-0
+    @apply max-lg:w-full max-lg:min-h-full max-lg:flex-col max-lg:bg-[#2d3949] max-lg:items-center max-lg:justify-center z-20 max-lg:fixed max-lg:top-0
 }

@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
                 <div className='flex items-center'>
                     <ul
-                        className={`gap-[55px] flex mobileView items-center duration-700 pr-9 ${show ? "right-[-100%]" : "right-0"
+                        className={`gap-[55px] flex mobileView items-center duration-700 ${show ? "right-[-100%]" : "right-0"
                             }`}
                     >
                         <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
@@ -39,7 +39,7 @@ const Header = () => {
                         </li>
 
                     </ul>
-                    <li className="sm:gap-[28px] gap-2 flex pr-7 lg:pr-0">
+                    <div className="sm:gap-[28px] gap-2 flex pr-7 lg:pr-0 pl-8">
                         <span className='cursor-pointer'>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ const Header = () => {
                                 />
                             </svg>
                         </span>
-                    </li>
+                    </div>
                     <label className=" lg:hidden" onClick={nav}>
                         {show ? (
                             <div className="z-20 relative">
@@ -86,7 +86,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="max-w-[1140px] px-3 mx-auto pb-5 flex items-center justify-center flex-col">
-                <h2 className='text-white font-poppins sm:text-[48px] text-[40px] sm:text-5xl font-bold text-center pt-20 capitalize max-w-[908px] mx-auto sm:leading-normal'>Awesome Design Best Furniture For Your Interior</h2>
+                <h2 className='text-white font-poppins text-[36px] sm:text-[48px] font-bold text-center pt-20 capitalize max-w-[908px] mx-auto sm:leading-normal'>Awesome Design Best Furniture For Your Interior</h2>
                 <p className='text-white text-xl font-poppins font-normal text-center pt-2 pb-5 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus </p>
                 <button class="relative overflow-hidden font-poppins text-[20px] mx-auto font-semibold w-[207px] mt-5 h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
                     <span class="relative z-10">SHOP NOW</span>

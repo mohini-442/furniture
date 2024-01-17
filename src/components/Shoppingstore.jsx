@@ -195,7 +195,7 @@ const Shoppingstore = () => {
     };
     return (
         <div className="bg-[#2D39490A] pt-[40px] md:pb-[98px] relative overflow-x-clip mt-[14%]">
-            <div className="max-w-[741px] max-h-[417px] h-full bg-gradient1 w-full absolute right-0 top-[47%] lg:top-[-35%] hidden lg:block"></div>
+            <div className="max-w-[741px] max-h-[417px] h-full bg-gradient1 w-full absolute right-0 top-[40%] lg:top-[-35%]"></div>
             <div className="max-w-[1320px] mx-auto px-3" data-aos="fade-up">
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div className="lg:w-5/12 w-full ">

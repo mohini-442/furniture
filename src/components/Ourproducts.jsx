@@ -85,7 +85,7 @@ const Ourproducts = () => {
                 <p className='font-poppins text-[18px] font-normal text-[#4D4D4D] pt-2'>Lorem ipsum dolor </p>
                 <div className='pt-4 flex justify-between pb-9'>
                     <p className='font-poppins text-[18px] sm:text-[29px] font-semibold text-[#000000]'>₹ 1200.00</p>
-                    <button class="relative overflow-hidden font-poppins text-[14px] sm:text-[20px] font-medium w-[120px] sm:w-[159px] sm:h-[50px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[50px] hover:before:w-[159px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                    <button class="relative overflow-hidden font-poppins text-[14px] sm:text-[20px] font-medium w-[120px] sm:w-[159px] h-[40px] sm:h-[50px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[50px] hover:before:w-[159px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
                         <span class="relative z-10">ADD TO CART</span>
                     </button>
                 </div>
