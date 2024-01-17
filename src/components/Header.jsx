@@ -89,7 +89,7 @@ const Header = () => {
             <div className="max-w-[1140px] px-3 mx-auto pb-5 flex items-center justify-center flex-col">
                 <h2 className='text-white font-poppins text-[36px] sm:text-[48px] font-bold text-center pt-20 capitalize max-w-[908px] mx-auto sm:leading-normal'>Awesome Design Best Furniture For Your Interior</h2>
                 <p className='text-white text-xl font-poppins font-normal text-center pt-2 pb-5 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus </p>
-                <button class="relative overflow-hidden font-poppins text-[20px] mx-auto font-semibold w-[207px] mt-5 h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                <button class="relative overflow-hidden font-poppins text-[20px] mx-auto font-semibold w-[178px] sm:w-[207px] sm:mt-5 h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
                     <span class="relative z-10">SHOP NOW</span>
                 </button>
             </div>
