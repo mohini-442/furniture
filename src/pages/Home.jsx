@@ -31,7 +31,6 @@ const Home = () => {
             <Testimonial />
             <Myfooter />
             <Backtotop />
-
         </div>
     )
 }

@@ -126,12 +126,13 @@ const Shoppingstore = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 800,
         arrows: false,
         centerPadding: "60px",
         slidesToShow: 3.11,
         variableWidth: true,
         slidesToScroll: 1,
+        autoplay: true, 
         responsive: [
             {
                 breakpoint: 1500,
@@ -160,6 +161,7 @@ const Shoppingstore = () => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
+                    dots:true,
                 },
             },
             {
@@ -167,6 +169,7 @@ const Shoppingstore = () => {
                 settings: {
                     slidesToShow: 2.3,
                     slidesToScroll: 1,
+                    dots: true,
                 },
             },
             {
@@ -174,6 +177,7 @@ const Shoppingstore = () => {
                 settings: {
                     slidesToShow: 1.7,
                     slidesToScroll: 1,
+                    dots:true
                 },
             },
             {
@@ -183,13 +187,14 @@ const Shoppingstore = () => {
                     slidesToScroll: 1,
                     autoPlay: true,
                     autoPlaySpeed: 1000,
+                    dots: true,
                 },
             },
         ],
     };
     return (
         <div className="bg-[#2D39490A] md:pt-[70px] pt-5 lg:pb-[98px] pb-0 relative overflow-x-clip lg:mt-[12%]">
-            <div className="max-w-[741px] max-h-[417px] h-full bg-gradient1 w-full absolute right-0 top-[51%] xl:top-[-30%] "></div>
+            <div className="max-w-[741px] max-h-[417px] h-full bg-gradient1 w-full absolute right-0 top-[45%] xl:top-[-30%] "></div>
             <div className="max-w-[1320px] mx-auto px-3">
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div
@@ -210,7 +215,7 @@ const Shoppingstore = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                                 faucibus, urna at pulvinar porta
                             </p>
-                            <div className="flex gap-[14px] mt-10 justify-center xl:justify-normal">
+                            <div className="!flex gap-[14px] mt-10 justify-center xl:justify-normal !hidden lg:!block">
                                 <button
                                     className="w-[41px] h-[41px] rounded-[10px] bg-white  flex justify-center items-center hover:bg-gradient1 duration-[0.5s]"
                                     onClick={() => btn?.current?.slickPrev()}
@@ -258,7 +263,7 @@ const Shoppingstore = () => {
                         data-aos-easing="linear"
                         data-aos-duration="1500"
                     >
-                        <Slider ref={btn} {...settings}>
+                        <Slider ref={btn} {...settings} className="max-h-[400px] h-full">
                             {card}
                         </Slider>
                     </div>

@@ -18,8 +18,8 @@ const Welcomeourstory = () => {
                         </div>
                         <h2 className='font-poppins text-[28px] md:text-[35px] text-[#243040] font-bold lg:max-w-[436px] leading-normal mx-auto lg:mx-0'>We create the product you tell us you wish existed.</h2>
                         <p className='font-poppins text-[16px] sm:text-[18px] text-[#4D4D4D] font-normal lg:max-w-[518px] leading-normal pt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta, augue lorem ullamcorper orci, non rhoncus nisi neque sit amet nibh. Phasellus consectetur semper ante et mattis</p>
-                        <button class="relative overflow-hidden font-poppins text-[20px] mx-auto font-semibold w-[207px] mt-5 h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
-                            <span class="relative z-10">READ MORE</span>
+                        <button className="relative overflow-hidden font-poppins text-[20px] mx-auto font-semibold w-[207px] mt-5 h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                            <span className="relative z-10">READ MORE</span>
                         </button>
                     </div>
 

@@ -14,8 +14,8 @@ function Woodensofa() {
                         </div>
                         <h2 className='text-[#243040] font-poppins text-[35px] font-bold max-w-[436px] pt-3 mx-auto lg:mx-0 text-center lg:text-start'>Wooden Sofa Starts From ₹1200.00</h2>
                         <div className='flex items-center justify-center lg:justify-start'>
-                            <button class="relative overflow-hidden font-poppins text-[20px] mx-auto lg:mx-0 mt-5 font-semibold w-[207px] h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
-                                <span class="relative z-10">SHOP NOW</span>
+                            <button className="relative overflow-hidden font-poppins text-[20px] mx-auto lg:mx-0 mt-5 font-semibold w-[207px] h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                                <span className="relative z-10">SHOP NOW</span>
                             </button>
                         </div>
                     </div>

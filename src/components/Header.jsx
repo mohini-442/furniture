@@ -16,7 +16,7 @@ const Header = () => {
         <div className='max-w-[1320px] mx-auto px-3'>
             <div className="flex py-[15px] justify-between items-center ">
                 <div className="flex items-center cursor-pointer">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="logo" className='w-[25%] sm:w-full' />
                     <span className="pl-2 text-white font-roboto sm:text-[33px] sm:text-2xl text-xl font-bold">
                         FURNITURE
                     </span>
@@ -26,17 +26,17 @@ const Header = () => {
                         className={`gap-[55px] flex mobileView items-center duration-700 ${show ? "right-[-100%]" : "right-0"
                             }`}
                     >
-                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
+                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke " onClick={nav}>
                             <Link to={'/'}> HOME </Link>
                         </li>
-                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
+                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke " onClick={nav}>
                             <Link to={'/about'}> ABOUT US</Link>
                         </li>
-                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
+                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke " onClick={nav}>
                             <Link to={'/shop'}> SHOP </Link>
                         </li>
-                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke ">
-                            <Link to={'/contact'}>  CONTACT US </Link>
+                        <li className="text-white cursor-pointer relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke " onClick={nav}>
+                            <Link to={'/contact'}> CONTACT US </Link>
                         </li>
 
                     </ul>
@@ -89,8 +89,8 @@ const Header = () => {
             <div className="max-w-[1140px] px-3 mx-auto pb-5 flex items-center justify-center flex-col">
                 <h2 className='text-white font-poppins text-[36px] sm:text-[48px] font-bold text-center pt-20 capitalize max-w-[908px] mx-auto sm:leading-normal'>Awesome Design Best Furniture For Your Interior</h2>
                 <p className='text-white text-xl font-poppins font-normal text-center pt-2 pb-5 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus </p>
-                <button class="relative overflow-hidden font-poppins text-[18px] sm:text-[20px] mx-auto font-semibold w-[178px] sm:w-[207px] sm:mt-5 h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
-                    <span class="relative z-10">SHOP NOW</span>
+                <button className="relative overflow-hidden font-poppins text-[18px] sm:text-[20px] mx-auto font-semibold w-[178px] sm:w-[207px] sm:mt-5 h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[207px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                    <span className="relative z-10">SHOP NOW</span>
                 </button>
             </div>
         </div>

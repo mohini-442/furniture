@@ -68,8 +68,8 @@ const productcard = [
     },
 ];
 const Ourproducts = () => {
-    const list = productcard.map((productcard) => (
-        <div className=" xl:w-4/12 lg:w-1/2 md:w-1/2 w-full px-3 " >
+    const list = productcard.map((productcard,m) => (
+        <div className=" xl:w-4/12 lg:w-1/2 md:w-1/2 w-full px-3 " key={m}>
             <div className=" max-w-[422px] bg-white p-[21px] shadow-[6px_13px_38px_0px_#0000001F] mt-10 mx-auto hover:scale-[1.02] duration-[0.5s]" >
                 <img src={productcard.img} alt="img" className='w-full' />
                 <div className='flex justify-between pt-4'>
@@ -83,10 +83,10 @@ const Ourproducts = () => {
                     </div>
                 </div>
                 <p className='font-poppins text-[18px] font-normal text-[#4D4D4D] pt-2'>Lorem ipsum dolor </p>
-                <div className='pt-4 flex justify-between pb-9'>
+                <div className='pt-4 flex justify-between items-center pb-9'>
                     <p className='font-poppins text-[18px] sm:text-[29px] font-semibold text-[#000000]'>₹ 1200.00</p>
-                    <button class="relative overflow-hidden font-poppins text-[14px] sm:text-[20px] font-medium w-[120px] sm:w-[159px] h-[40px] sm:h-[50px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[50px] hover:before:w-[159px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
-                        <span class="relative z-10">ADD TO CART</span>
+                    <button className="relative overflow-hidden font-poppins text-[14px] sm:text-[20px] font-medium w-[120px] sm:w-[159px] h-[40px] sm:h-[50px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[50px] hover:before:w-[159px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                        <span className="relative z-10">ADD TO CART</span>
                     </button>
                 </div>
             </div>
@@ -102,16 +102,16 @@ const Ourproducts = () => {
                 </div>
                 <div className='flex justify-between'>
                     <h2 className='text-[#243040] font-poppins text-[35px] font-bold max-w-[436px] mx-auto sm:mx-0'>Our Products</h2>
-                    <button class="hidden sm:block relative overflow-hidden font-poppins text-[20px] font-semibold w-[285px] h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#fff] before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[285px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
-                        <span class="relative z-10">VIEW ALL PRODUCT</span>
+                    <button className="hidden sm:block relative overflow-hidden font-poppins text-[20px] font-semibold w-[285px] h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#fff] before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[285px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                        <span className="relative z-10">VIEW ALL PRODUCT</span>
                     </button>
 
                 </div>
                 <div className="flex flex-wrap flex-row pb-12 justify-center lg:pt-10">
                     {list}
                 </div>
-                <button class="block mx-auto sm:hidden relative overflow-hidden font-poppins text-[20px] font-semibold w-[285px] h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#fff] before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[285px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
-                    <span class="relative z-10">VIEW ALL PRODUCT</span>
+                <button className="block mx-auto sm:hidden relative overflow-hidden font-poppins text-[20px] font-semibold w-[285px] h-[68px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#fff] before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[68px] hover:before:w-[285px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                    <span className="relative z-10">VIEW ALL PRODUCT</span>
                 </button>
             </div>
         </div>

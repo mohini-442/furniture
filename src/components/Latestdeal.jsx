@@ -52,8 +52,8 @@ const productcard = [
 
 ];
 const Latesdeal = () => {
-    const list = productcard.map((productcard) => (
-        <div className=" lg:max-w-[422px] w-full bg-white p-[21px]  hover:shadow-[6px_13px_38px_0px_#0000001F] hover:scale-[1.02] duration-[0.5s] mt-10 mx-3 mb-12" >
+    const list = productcard.map((productcard, m) => (
+        <div className=" lg:max-w-[422px] w-full bg-white p-[21px]  hover:shadow-[6px_13px_38px_0px_#0000001F] hover:scale-[1.02] duration-[0.5s] mt-10 mx-3 mb-12" key={m} >
             <img src={productcard.img} alt="img" className='w-full' />
             <div className='flex justify-between pt-4'>
                 <p className='font-poppins text-xl font-medium text-[#000000]'>Single Sofa</p>
@@ -68,8 +68,8 @@ const Latesdeal = () => {
             <p className='font-poppins text-lg font-normal text-[#4d4d4d] pt-2'>Lorem ipsum dolor </p>
             <div className='pt-4 flex justify-between'>
                 <p className='font-poppins text-[22px] sm:text-[29px] font-semibold text-[#000000]'>₹1200.00</p>
-                <button class="relative overflow-hidden font-poppins text-[16px] sm:text-[20px] font-medium w-[120px] sm:w-[159px] sm:h-[50px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[50px] hover:before:w-[159px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
-                    <span class="relative z-10">ADD TO CART</span>
+                <button className="relative overflow-hidden font-poppins text-[16px] sm:text-[20px] font-medium w-[120px] sm:w-[159px] sm:h-[50px] text-[#fff] bg-[#BD7D41] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-[#BD7D41] hover:before:h-[50px] hover:before:w-[159px] hover:before:border-[2px] hover:before:border-[#BD7D41]">
+                    <span className="relative z-10">ADD TO CART</span>
                 </button>
             </div>
         </div>
@@ -122,7 +122,8 @@ const Latesdeal = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    CenterMode: true
+                    CenterMode: true,
+                    dots: true
                 }
             }
         ]
@@ -140,7 +141,7 @@ const Latesdeal = () => {
                     {list}
                 </Slider>
             </div>
-            <div className="flex gap-4 mt-8 justify-center xl:block">
+            <div className="flex gap-4 mt-8 justify-center xl:block hidden sm:block">
                 <button onClick={() => arrowbtn?.current?.slickPrev()} className="rounded-full w-[70px] h-[70px] lg:w-[90px] lg:h-[90px] flex items-center justify-center shadow-[2px_7px_16px_0px_#00000014] absolute left-[1%] xl:top-[46%] top-[85%] hover:bg-[#BD7D41]" >
                     <svg width="42" height="16" viewBox="0 0 42 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM42 9H1V7H42V9Z" fill="black" />
