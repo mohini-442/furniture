@@ -8,10 +8,6 @@
     -webkit-text-stroke: 0.7px #fff;
 }
 
-.slick-track {
-    height: 380px;
-}
-
 .slick-dots {
     bottom: 25px !important;
 }
